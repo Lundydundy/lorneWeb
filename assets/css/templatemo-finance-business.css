@@ -278,7 +278,7 @@ header .navbar {
 .navbar .navbar-brand h2 {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: clamp(15px, 3.5vw, 24px);
+	font-size: clamp(15px, 3.6vw, 30px);
 	font-weight: 700;
 	-webkit-transition: all .3s ease 0s;
     -moz-transition: all .3s ease 0s;
