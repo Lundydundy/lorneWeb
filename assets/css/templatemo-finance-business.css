@@ -556,14 +556,21 @@ ul.slick-dots {
 	margin-top: 140px;
 }
 
+.service-item{
+	margin-top: 5%;
+}
 .service-item img {
 	width: 100%;
 	overflow: hidden;
+	max-height: 236px;
+	object-fit: fill;
 }
 
 .service-item .down-content {
 	background-color: #f7f7f7;
 	padding: 30px;
+	min-height: 300px;
+	max-height: 300px;
 }
 
 .service-item .down-content h4 {
@@ -576,6 +583,7 @@ ul.slick-dots {
 .service-item .down-content p {
 	margin-bottom: 20px;
 }
+
 
 
 
@@ -1056,7 +1064,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	background-image: url(../images/cover-1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1187,6 +1195,16 @@ footer .contact-form button.filled-button:hover {
   font-size: 14px;
   color: #7a7a7a;
   margin-bottom: 0px;
+}
+
+.tabs-content li p::before{
+	content: "•";
+	
+}
+
+.tabs-content img{
+	max-height: 300px;
+	width: auto;
 }
 
 
