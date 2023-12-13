@@ -278,7 +278,7 @@ header .navbar {
 .navbar .navbar-brand h2 {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: clamp(15px, 3.5git vw, 24px);
+	font-size: clamp(15px, 3.5vw, 24px);
 	font-weight: 700;
 	-webkit-transition: all .3s ease 0s;
     -moz-transition: all .3s ease 0s;
@@ -319,11 +319,11 @@ header .navbar {
 	background-image: none;
 }
 .navbar .navbar-toggler {
-	border-color: #fff;
-	background-color: #fff;	
+	border-color: white;
+	background-color: transparent;	
 	height: 36px;
 	outline: none;
-	border-radius: 0px;
+	border-radius: 10px;
 	position: absolute;
 	right: 30px;
 	top: 20px;
