@@ -9,6 +9,7 @@ https://templatemo.com/tm-545-finance-business
 	--main-color: #6baef7;
 }
 
+
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -33,6 +34,12 @@ ul {
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
+}
+
+em{
+	color: var(--main-color);
+	font-style: normal;
+	font-weight: bold;
 }
 
 a.filled-button {
@@ -767,6 +774,7 @@ ul.slick-dots {
 
 .callback-form {
 	margin-top: 140px;
+	padding-bottom: 3%;
 }
 
 .callback-form .contact-form {
@@ -1068,8 +1076,10 @@ footer .contact-form button.filled-button:hover {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 230px 0px 150px 0px;
+	padding: 230px 0px 10px 0px;
 	color: #fff;
+	display: flex;
+	flex-direction: column;
 }
 
 .page-heading h1 {
